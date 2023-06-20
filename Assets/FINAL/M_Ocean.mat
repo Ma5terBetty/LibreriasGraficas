@@ -121,7 +121,7 @@ Material:
     - _WavesAmount: 1.74
     - _WavesThickness: 8
     - _ZWrite: 1
-    - __dirty: 1
+    - __dirty: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Direction: {r: 0, g: 0, b: 1, a: 0}
@@ -137,5 +137,5 @@ Material:
     - _Vector3: {r: 1, g: 1, b: 0, a: 0}
     - _Vector4: {r: 0, g: 0.15, b: 0, a: 0}
     - _Vector5: {r: -1.59, g: 1.15, b: 1.11, a: 0}
-    - _WaterColor: {r: 0.15432537, g: 0.40015218, b: 0.6415094, a: 0}
+    - _WaterColor: {r: 0.6485156, g: 0, b: 0.83137256, a: 0}
   m_BuildTextureStacks: []

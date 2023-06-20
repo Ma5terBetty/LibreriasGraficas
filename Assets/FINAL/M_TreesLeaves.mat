@@ -93,5 +93,5 @@ Material:
     - _Color: {r: 0.7378093, g: 1, b: 0.3803922, a: 0}
     - _Color1: {r: 0.9698226, g: 1, b: 0.3803922, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _LeavesColor: {r: 0.6026406, g: 0.8018868, b: 0.39716092, a: 0}
+    - _LeavesColor: {r: 0.55979043, g: 0.4198113, b: 1, a: 0}
   m_BuildTextureStacks: []

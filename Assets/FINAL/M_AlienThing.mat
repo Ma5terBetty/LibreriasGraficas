@@ -7,11 +7,11 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_Grass
-  m_Shader: {fileID: 4800000, guid: cb210fffe757cc846b0ab2891a4f22fd, type: 3}
+  m_Name: M_AlienThing
+  m_Shader: {fileID: 4800000, guid: fc6d58dfaafaa8141b0001b3f2a40443, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 4
+  m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -56,62 +56,43 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _TextureSample0:
-        m_Texture: {fileID: 2800000, guid: 4e364662e65fd2d4a995a4efe45af277, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _TextureSample1:
-        m_Texture: {fileID: 2800000, guid: 4e364662e65fd2d4a995a4efe45af277, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _texcoord:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Aplitude: 0.01
-    - _Aplitude2: 0.01
     - _BumpScale: 1
     - _Cutoff: 0.5
+    - _Deformation: 10
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _EdgeLength: 15
-    - _Float1: -0.19
-    - _Float2: 50
+    - _Float0: 1
+    - _Float1: 52.32
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _GrassColorIntensity: 2.6
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _Range: 1
+    - _Plus1: 1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
-    - _Speed: 2
-    - _Speed2: 1.2
     - _SrcBlend: 1
-    - _Steepness: 1
-    - _Steepness2: 0.774
+    - _ThingMovement: 2.2941177
+    - _ThingMovementSpeed: 2
     - _UVSec: 0
-    - _WaveLenght: 5
-    - _WaveLenght2: 1
-    - _WavesAmount: 5
-    - _WavesAmount2: 3
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:
+    - _BorderColor: {r: 1, g: 1, b: 1, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color0: {r: 0.16316223, g: 1, b: 0, a: 0}
+    - _Color1: {r: 0.3254902, g: 0.5294118, b: 0.5215082, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _GrassColor: {r: 1, g: 0, b: 0.25315523, a: 0}
-    - _PlayerPos: {r: -1.496, g: 0.41, b: 7.46, a: 0}
-    - _PlayerPos1: {r: 0, g: 0, b: 0, a: 0}
-    - _Vector0: {r: 0, g: 5, b: 0, a: 0}
-    - _Vector1: {r: 200, g: -0.23, b: 200, a: 0}
-    - _Wave1Direction: {r: 1, g: 0, b: 1, a: 0}
-    - _Wave2Direction: {r: -1, g: 0, b: 1, a: 0}
-    - _Wave2Direction2: {r: -1, g: 0, b: 1, a: 0}
-    - _WaveDirection2: {r: 1, g: 0, b: 1, a: 0}
+    - _Tiling: {r: 10, g: 5, b: 0, a: 0}
+    - _Vector0: {r: 5, g: 5, b: 0, a: 0}
+    - _Vector1: {r: 0, g: 0.3, b: 0, a: 0}
   m_BuildTextureStacks: []
