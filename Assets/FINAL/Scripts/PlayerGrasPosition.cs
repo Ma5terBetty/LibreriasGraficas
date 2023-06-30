@@ -24,7 +24,6 @@ public class PlayerGrasPosition : MonoBehaviour
 
         //Debug.Log(Vector3.Distance(playerTransform.position, transform.position));
     }
-
     void RandomizeRotation()
     { 
         transform.rotation = Quaternion.Euler(transform.position.x, Random.Range(0,180), transform.position.z);

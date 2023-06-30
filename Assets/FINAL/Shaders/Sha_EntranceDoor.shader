@@ -109,7 +109,7 @@ Shader "Sha_EntranceDoor"
 }
 /*ASEBEGIN
 Version=18900
-0;535;1465;464;2929.34;-573.0753;1;True;True
+0;497;1550;494;3332.562;0.1445522;2.484672;True;False
 Node;AmplifyShaderEditor.CommentaryNode;145;-2062.767,581.5059;Inherit;False;1058.6;351.926;Lines;9;55;131;3;20;14;4;56;46;5;;1,1,1,1;0;0
 Node;AmplifyShaderEditor.CommentaryNode;202;-2066.521,1002.374;Inherit;False;1082;406.526;Thinner Lines;9;182;184;183;185;187;186;188;189;190;;1,1,1,1;0;0
 Node;AmplifyShaderEditor.RangedFloatNode;5;-2012.768,771.8418;Inherit;False;Property;_MainLinesScale;Main Lines Scale;0;1;[Header];Create;True;1;Lines Properties;0;0;False;0;False;0;10;0;0;0;1;FLOAT;0
@@ -210,4 +210,4 @@ WireConnection;164;0;214;0
 WireConnection;0;2;143;0
 WireConnection;0;9;165;0
 ASEEND*/
-//CHKSM=F9871866B0D9B2FC352B88662013DD41C6881079
+//CHKSM=9AF21E1F7CC215CF9E8341A80511DAEDC6D0B01B
